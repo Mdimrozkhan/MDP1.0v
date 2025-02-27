@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+<meta charset="ISO-8859-1">
+<title>registraion form </title>
+</head>
+<body>
+	
+<div class="container">
+	<p>Edit page</p>
+<form action="editprofile.jsp" method="post" >
+	
+		
+		<p>we can't change our email but email is required for update your profile details</p>
+	<input type="text" name="ename" placeholder="edit your name"/>
+	<br>
+	<input type="email" name="email" placeholder=" your e-mail" required />
+	<br>
+	<input type="text" name="ephone" placeholder="edit your mobile no"/>
+	<br>
+	
+	<input type="radio" name="egender" value="female" />female
+	<br>
+	<input type="radio" name="egender" value="male"/>male
+	<br>
+	<input type="submit" value="save" class="btn-success"/>
+	<br>
+</form>
+</div>
+</body>
+</html>
